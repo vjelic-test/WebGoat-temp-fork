@@ -36,7 +36,8 @@ jobs:
         with:
           lang: 'java'
           debug: 'false'
-          client: 'demo'
+          client: 'test'
+          env: 'dev'
           upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
